@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Gye Jin Lee
-title: PhD Student
+title: PhD Student at GATech
 email: gyejinlee@gatech.edu
 website: https://papr1ka2.github.io
 
@@ -30,10 +30,10 @@ github_username:  papr1ka2
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-# - title: itsgoingto.be
+additional_links:
+  - title: CV
 #   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+    url: https://papr1ka2.github.io/docs/gyejinlee_cv.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +48,13 @@ github_username:  papr1ka2
 # about_title: About Me
 about_profile_image: images/gyejin_43.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am Gye Jin. I am a first year PhD student at Georgia Tech. I am interested in software security and cryptography.
+  Hi, I'm Gye Jin. I'm a first year PhD student at Georgia Tech. I'm interested in software security and cryptography.
+  My goal is to build 
+  Currently I am digging into:
+    - symbolic execution
+    - program verification
+    - side channels
+  If you want to know more about me check out my [CV](/docs/gyejinlee_cv.pdf)
 
 content:
   - title: Publications # Title for the section
@@ -78,10 +84,10 @@ content:
     content:
       - layout: left
         title: PwnedNoMore
-        link: todo
+        link: pwnednomore.org
         # link_text: boringcompany.com
         sub_title: todo
-        caption: todo
+        caption: Jun 2022 - Aug 2022
         quote: >
           todo
         description: | # this will include new lines to allow paragraphs
