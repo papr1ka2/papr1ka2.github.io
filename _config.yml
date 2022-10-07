@@ -49,7 +49,7 @@ additional_links:
 about_profile_image: images/gyejin_43.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Gye Jin, a first year PhD student at Georgia Tech. I'm interested in software security and cryptography.
-  I enjoy researching the more theoretical approaches for finding software bugs.
+  I enjoy researching various approaches for finding software bugs.
   Currently I am digging into:
     - symbolic execution
     - program verification
