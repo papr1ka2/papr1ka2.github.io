@@ -48,12 +48,13 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/gyejin_43.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Gye Jin. I'm a first year PhD student at Georgia Tech. I'm interested in software security and cryptography.
-  My goal is to build 
+  Hi, I'm Gye Jin, a first year PhD student at Georgia Tech. I'm interested in software security and cryptography.
+  I enjoy researching the more theoretical approaches for finding software bugs.
   Currently I am digging into:
     - symbolic execution
     - program verification
     - side channels
+
   If you want to know more about me check out my [CV](/docs/gyejinlee_cv.pdf)
 
 content:
@@ -86,7 +87,17 @@ content:
         title: PwnedNoMore
         link: pwnednomore.org
         # link_text: boringcompany.com
-        sub_title: todo
+        sub_title: Research Intern & Community Hacker
+        caption: Jun 2022 - Aug 2022
+        quote: >
+          todo
+        description: | # this will include new lines to allow paragraphs
+            todo
+      - layout: left
+        title: PwnedNoMore
+        link: pwnednomore.org
+        # link_text: boringcompany.com
+        sub_title: Research Intern & Community Hacker
         caption: Jun 2022 - Aug 2022
         quote: >
           todo
@@ -98,8 +109,28 @@ content:
     content:
       - layout: left
         title: Georgia Institute of Technology
-        caption: 2022 - 
-        sub_title: PhD Computer Science
+        caption: Aug 2022 - Present
+        sub_title: Ph.D. Computer Science
+        quote: >
+          todo?
+        description: | # this will include new lines to allow paragraphs
+          todo
+
+          todo
+      - layout: left
+        title: Seoul National University
+        caption: Mar 2016 - Feb 2022
+        sub_title: B.S. Mathematics, B.S.Computer Science
+        quote: >
+          todo?
+        description: | # this will include new lines to allow paragraphs
+          todo
+
+          todo
+      - layout: left
+        title: Seoul Science High School
+        caption: Mar 2013 - Feb 2016
+        sub_title: High School
         quote: >
           todo?
         description: | # this will include new lines to allow paragraphs
