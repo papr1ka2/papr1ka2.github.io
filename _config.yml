@@ -90,36 +90,27 @@ content:
         sub_title: Research Intern & Community Hacker
         caption: Jun 2022 - Aug 2022
         quote: >
-          remote
+          
         description: | # this will include new lines to allow paragraphs
-            Security auditing for Web3 applications
+            - Security auditing for Web3 applications
       - layout: left
         title: Programming Research Lab (ROPAS), SNU
         link: http://ropas.snu.ac.kr/
         sub_title: Undergraduate Research Intern
         caption: Feb 2021 - Apr 2022
         quote: >
-          Seoul, South Korea
+          Advisor: Kwangkeun Yi
         description: | # this will include new lines to allow paragraphs
-            todo
-      - layout: left
-        title: Systems Software and Security Lab (SSLab), GaTech
-        link: https://gts3.org/
-        sub_title: Undergraduate Research Intern
-        caption: Aug 2020 - Aug 2022
-        quote: >
-          remote
-        description: | # this will include new lines to allow paragraphs
-            todo
+            - Contributed to Hedgehog, a homomorphic encryption optimization compiler
       - layout: left
         title: Cryptography Lab, SNU
-        link: https://gts3.org/
+        link:
         sub_title: Undergraduate Research Intern
         caption: Feb 2020 - July 2020
         quote: >
-          Seoul, South Korea
+          Advisor: Jung Hee Cheon
         description: | # this will include new lines to allow paragraphs
-            todo
+            - Developed algorithm for homomorphic encryption based privacy preserving contract tracing
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -129,13 +120,14 @@ content:
         caption: Aug 2022 - Present
         sub_title: Ph.D. Computer Science
         quote: >
-          Atlanta, U.S.
+          Advisor: Taesoo Kim
         description: | # this will include new lines to allow paragraphs
-          Advisor: Prod. Taesoo Kim
+
       - layout: left
         title: Seoul National University (SNU)
         caption: Mar 2016 - Feb 2022
-        sub_title: B.S. Mathematics, B.S.Computer Science
+        sub_title: B.S. Mathematics
+        B.S.Computer Science
         quote: >
           Seoul, South Korea
       - layout: left
