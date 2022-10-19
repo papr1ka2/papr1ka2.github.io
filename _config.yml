@@ -84,23 +84,40 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: PwnedNoMore
+        title: PwnedNoMore (PNM)
         link: pwnednomore.org
         # link_text: boringcompany.com
         sub_title: Research Intern & Community Hacker
         caption: Jun 2022 - Aug 2022
         quote: >
-          todo
+          remote
+        description: | # this will include new lines to allow paragraphs
+            Security auditing for Web3 applications
+      - layout: left
+        title: Programming Research Lab (ROPAS), SNU
+        link: http://ropas.snu.ac.kr/
+        sub_title: Undergraduate Research Intern
+        caption: Feb 2021 - Apr 2022
+        quote: >
+          Seoul, South Korea
         description: | # this will include new lines to allow paragraphs
             todo
       - layout: left
-        title: PwnedNoMore
-        link: pwnednomore.org
-        # link_text: boringcompany.com
-        sub_title: Research Intern & Community Hacker
-        caption: Jun 2022 - Aug 2022
+        title: Systems Software and Security Lab (SSLab), GaTech
+        link: https://gts3.org/
+        sub_title: Undergraduate Research Intern
+        caption: Aug 2020 - Aug 2022
         quote: >
-          todo
+          remote
+        description: | # this will include new lines to allow paragraphs
+            todo
+      - layout: left
+        title: Cryptography Lab, SNU
+        link: https://gts3.org/
+        sub_title: Undergraduate Research Intern
+        caption: Feb 2020 - July 2020
+        quote: >
+          Seoul, South Korea
         description: | # this will include new lines to allow paragraphs
             todo
 
@@ -108,35 +125,25 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Georgia Institute of Technology
+        title: Georgia Institute of Technology (GaTech)
         caption: Aug 2022 - Present
         sub_title: Ph.D. Computer Science
         quote: >
-          todo?
+          Atlanta, U.S.
         description: | # this will include new lines to allow paragraphs
-          todo
-
-          todo
+          Advisor: Prod. Taesoo Kim
       - layout: left
-        title: Seoul National University
+        title: Seoul National University (SNU)
         caption: Mar 2016 - Feb 2022
         sub_title: B.S. Mathematics, B.S.Computer Science
         quote: >
-          todo?
-        description: | # this will include new lines to allow paragraphs
-          todo
-
-          todo
+          Seoul, South Korea
       - layout: left
         title: Seoul Science High School
         caption: Mar 2013 - Feb 2016
         sub_title: High School
         quote: >
-          todo?
-        description: | # this will include new lines to allow paragraphs
-          todo
-
-          todo
+          Seoul, South Korea
 
   - title: A Little More About Me
     layout: text
