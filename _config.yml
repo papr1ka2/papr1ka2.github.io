@@ -88,7 +88,9 @@ content:
         link: pwnednomore.org
         # link_text: boringcompany.com
         sub_title: Research Intern & Community Hacker
-        caption: Jun 2022 - Aug 2022
+        caption: |
+          Jun 2022 - Aug 2022 <br \>
+          Remote
         quote:
         description: | # this will include new lines to allow paragraphs
             - Studied various bugs in the Solana and Ethereum ecosystem
@@ -98,7 +100,9 @@ content:
         title: Programming Research Lab (ROPAS), SNU
         link: http://ropas.snu.ac.kr/
         sub_title: Undergraduate Research Intern
-        caption: Feb 2021 - Apr 2022
+        caption: |
+          Feb 2021 - Apr 2022 <br \>
+          Seoul, South Korea
         quote: >
           Advisor: Kwangkeun Yi
         description: | # this will include new lines to allow paragraphs
@@ -107,7 +111,9 @@ content:
         title: Cryptography Lab, SNU
         link:
         sub_title: Undergraduate Research Intern
-        caption: Feb 2020 - July 2020
+        caption: |
+          Feb 2020 - July 2020 <br \>
+          Seoul, South Korea
         quote: >
           Advisor: Jung Hee Cheon
         description: | # this will include new lines to allow paragraphs
@@ -118,25 +124,29 @@ content:
     content:
       - layout: left
         title: Georgia Institute of Technology (GaTech)
-        caption: Aug 2022 - Present
         sub_title: Ph.D. Computer Science
+        caption: |
+          Aug 2022 - Present <br \>
+          Atlanta, GA, USA
         quote: >
           Advisor: Taesoo Kim
         description: | # this will include new lines to allow paragraphs
 
       - layout: left
         title: Seoul National University (SNU)
-        caption: Mar 2016 - Feb 2022
         sub_title: |
           B.S. Mathematics <br />
-          B.S.Computer Science <br />
+          B.S.Computer Science
+        caption: |
+          Mar 2016 - Feb 2022 <br \>
           Seoul, South Korea
           
       - layout: left
         title: Seoul Science High School
-        caption: Mar 2013 - Feb 2016
         sub_title: |
           High School
+        caption: |
+          Mar 2013 - Feb 2016 <br \>
           Seoul, South Korea
 
   - title: A Little More About Me
