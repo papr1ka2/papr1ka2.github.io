@@ -128,8 +128,8 @@ content:
         title: Seoul National University (SNU)
         caption: Mar 2016 - Feb 2022
         sub_title: |
-          B.S. Mathematics
-          B.S.Computer Science
+          B.S. Mathematics <br />
+          B.S.Computer Science <br />
           Seoul, South Korea
           
       - layout: left
