@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/gyejin_43.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Gye Jin, a first year PhD student at Georgia Tech. My advisor is [Taesoo Kim](https://taesoo.kim/).I'm interested in software security and cryptography.
+  Hi, I'm Gye Jin, a first year PhD student at Georgia Tech. My advisor is [Taesoo Kim](https://taesoo.kim/). I'm interested in software security and cryptography.
   I enjoy researching various approaches for finding software bugs.
   Currently I am digging into:
     - symbolic execution
