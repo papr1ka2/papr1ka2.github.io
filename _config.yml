@@ -127,14 +127,16 @@ content:
       - layout: left
         title: Seoul National University (SNU)
         caption: Mar 2016 - Feb 2022
-        sub_title: B.S. Mathematics | B.S.Computer Science
-        quote: >
+        sub_title: |
+          B.S. Mathematics
+          B.S.Computer Science
           Seoul, South Korea
+          
       - layout: left
         title: Seoul Science High School
         caption: Mar 2013 - Feb 2016
-        sub_title: High School
-        quote: >
+        sub_title: |
+          High School
           Seoul, South Korea
 
   - title: A Little More About Me
