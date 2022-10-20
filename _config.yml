@@ -89,10 +89,11 @@ content:
         # link_text: boringcompany.com
         sub_title: Research Intern & Community Hacker
         caption: Jun 2022 - Aug 2022
-        quote: >
-          
+        quote:
         description: | # this will include new lines to allow paragraphs
-            - Security auditing for Web3 applications
+            - Studied various bugs in the Solana and Ethereum ecosystem
+            - Security audited some Web3 applications on Solana
+            
       - layout: left
         title: Programming Research Lab (ROPAS), SNU
         link: http://ropas.snu.ac.kr/
