@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Gye Jin Lee
-title: PhD Student at GATech
+title: PhD Student at Georgia Tech
 email: gyejinlee@gatech.edu
 website: https://papr1ka2.github.io
 
@@ -124,7 +124,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Georgia Institute of Technology (GaTech)
+        title: Georgia Institute of Technology (GATech)
         sub_title: Ph.D. Computer Science
         caption: |
           Aug 2022 - Present <br \>
