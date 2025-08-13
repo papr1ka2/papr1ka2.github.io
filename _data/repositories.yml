@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - papr1ka2
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - team-atlanta/aixcc-afc-atlantis
+  - team-atlanta/aixcc-asc-atlantis
