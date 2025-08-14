@@ -203,6 +203,8 @@ exclude:
   # publications
   - _bibliography/
   - _pages/publications.md
+  # dropdown
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll
