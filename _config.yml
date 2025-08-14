@@ -204,6 +204,9 @@ exclude:
   - _pages/publications.md
   # dropdown
   - _pages/dropdown.md
+  # teaching
+  - _teaching/
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
