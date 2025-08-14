@@ -28,7 +28,12 @@ announcements:
 ---
 
 Hi, I'm Gye Jin, a third year PhD student at Georgia Tech.
-I am a member of the [Systems Software and Security Lab](https://gts3.org/).
-My advisor is [Taesoo Kim](https://taesoo.kim/).
+I am a member of the [Systems Software and Security Lab](https://gts3.org/) lead by my advisor [Taesoo Kim](https://taesoo.kim/).
+
 I'm broadly interested the intersection of software security and mathematics.
-Currently I am digging into zero-knowledge proofs and multi-party computation, symbolic execution and software verification.
+Currently I am digging into
+ - zero-knowledge proofs and multi-party computation
+ - symbolic execution and software verification
+ - smart contract security
+
+Please check out my [CV](assets/pdf/cv.pdf).
