@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>PhD Student</p>
+    <p>CODA 9th Floor</p>
+    <p>Atlanta, GA 30308</p>
 
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,13 +27,14 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Gye Jin, a third year PhD student at Georgia Tech.
-I am a member of the [Systems Software and Security Lab](https://gts3.org/) lead by my advisor [Taesoo Kim](https://taesoo.kim/).
+Hi, I'm Gye Jin, a PhD student at Georgia Tech working with [Prof.Taesoo Kim](https://taesoo.kim/) at the [Systems Software and Security Lab](https://gts3.org/).
 
-I'm broadly interested the intersection of software security and mathematics.
+I am also a member of [Team Atlanta](https://team-atlanta.github.io/), the winner of the DARPA [AIxCC](https://aicyberchallenge.com/) competition.
+
+I'm broadly interested in the intersection between software security and mathematics.
 Currently I am digging into
  - zero-knowledge proofs and multi-party computation
  - symbolic execution and software verification
  - smart contract security
 
-Please check out my [CV](assets/pdf/cv.pdf).
+For more details, please check out my [CV](assets/pdf/cv.pdf).
