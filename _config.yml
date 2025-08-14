@@ -209,6 +209,8 @@ exclude:
   - _pages/teaching.md
   # people
   - _pages/profiles.md
+  # resume.yml
+  - _data/cv.yml
 keep_files:
   - CNAME
   - .nojekyll
