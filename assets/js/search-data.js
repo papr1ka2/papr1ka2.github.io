@@ -56,7 +56,7 @@ ninja.data = [{
         title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/gyejinlee", "_blank");
+          window.open("https://twitter.com/be11pepper", "_blank");
         },
       },{
       id: 'light-theme',
