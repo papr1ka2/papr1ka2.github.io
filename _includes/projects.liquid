@@ -28,6 +28,13 @@
               {% endif %}
             </div>
           {% endif %}
+          {% if project.arxiv %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="arXiv Paper">
+                <a href="{{ project.arxiv }}"><i class="ai ai-arxiv gh-icon"></i></a>
+              </div>
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
