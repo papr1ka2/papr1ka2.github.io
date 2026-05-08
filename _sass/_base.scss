@@ -205,6 +205,28 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  .profile-contact-icons {
+    margin-top: 0.5rem;
+    font-size: 1.75rem;
+    text-align: center;
+
+    a {
+      margin: 0 0.3rem;
+
+      img {
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-bottom: 0;
+      }
+
+      svg {
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 .profile.float-right {
@@ -1422,4 +1444,88 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+/* Projects list (flat, tag-driven) */
+.project-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.project-list .project-item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.project-list .project-item:last-child {
+  border-bottom: none;
+}
+
+.project-list .project-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-list .project-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.project-list .project-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 0.35em 0.75em;
+  border-radius: 999px;
+  background-color: transparent;
+  color: var(--global-text-color-light);
+  border: 1px solid var(--global-divider-color);
+}
+
+.project-list .project-tag.tag-research {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+
+.project-list .project-tag.tag-hobby {
+  color: var(--global-text-color);
+  border-color: var(--global-text-color-light);
+}
+
+.project-list .project-description {
+  margin: 0.25rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+.project-list .project-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  font-size: 0.9rem;
+}
+
+.project-list .project-links a {
+  color: var(--global-theme-color);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.project-list .project-links a:hover {
+  text-decoration: underline;
+}
+
+.project-list .project-links i {
+  font-size: 0.95rem;
 }
