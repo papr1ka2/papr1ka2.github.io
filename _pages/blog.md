@@ -18,6 +18,10 @@ pagination:
 
 <div class="post">
 
+<header class="post-header">
+  <h1 class="post-title">{{ page.title }}</h1>
+</header>
+
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
@@ -127,13 +131,6 @@ pagination:
 <div class="row">
           <div class="col-sm-9">
 {% endif %}
-      <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %d, %Y' }}
-        {% if post.external_source %}
-        &nbsp; &middot; &nbsp; {{ post.external_source }}
-        {% endif %}
-      </p>
         <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -146,6 +143,13 @@ pagination:
           <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
         {% endif %}
       </h3>
+      <p class="post-meta">
+        {{ read_time }} min read &nbsp; &middot; &nbsp;
+        {{ post.date | date: '%B %d, %Y' }}
+        {% if post.external_source %}
+        &nbsp; &middot; &nbsp; {{ post.external_source }}
+        {% endif %}
+      </p>
       <p>
         {% if post.description %}
           {{ post.description }}
