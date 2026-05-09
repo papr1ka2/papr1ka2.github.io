@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "hello, world",
         
-        description: "first post.",
+        description: "",
         section: "Posts",
         handler: () => {
           
