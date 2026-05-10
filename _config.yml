@@ -7,6 +7,7 @@ first_name: Gye Jin
 middle_name:
 last_name: Lee
 contact_note:
+cv_pdf: /assets/pdf/cv.pdf # path to CV PDF; set to empty to hide the navbar entry
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text:
