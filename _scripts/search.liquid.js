@@ -88,7 +88,7 @@ ninja.data = [
             {%- assign title = item.title | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
           {%- endif -%}
           id: "{{ collection.label }}-{{ title | slugify }}",
-          title: '{{ title | escape | emojify | truncatewords: 13 }}',
+          title: '{{ title | emojify | truncatewords: 13 }}',
           description: "{{ item.description | strip_html | strip_newlines | escape | strip }}",
           section: "{{ collection.label | capitalize }}",
           {%- unless item.inline -%}
@@ -300,34 +300,5 @@ ninja.data = [
         },
       },
     {%- endfor -%}
-  {%- endif -%}
-  {%- if site.enable_darkmode -%}
-    {
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },
   {%- endif -%}
 ];
